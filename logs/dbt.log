@@ -1,0 +1,27 @@
+
+
+============================== 2022-03-21 06:15:35.284714 | 1a750822-c532-4943-b077-947f3d0ce5a9 ==============================
+06:15:35.284714 [info ] [MainThread]: Running with dbt=1.0.4
+06:15:35.285155 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/Users/danielmalungu/.dbt', project_dir=None, project_name='sample_dbt_project', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+06:15:35.285359 [debug] [MainThread]: Tracking: tracking
+06:15:35.315227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f20fb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f204520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f22b220>]}
+06:15:35.316822 [info ] [MainThread]: Creating dbt configuration folder at /Users/danielmalungu/.dbt
+06:15:35.318051 [debug] [MainThread]: Starter project path: /Users/danielmalungu/Documents/dbt_installation/venv/lib/python3.8/site-packages/dbt/include/starter_project
+06:15:45.316224 [info ] [MainThread]: Profile sample_dbt_project written to /Users/danielmalungu/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+06:15:45.316616 [info ] [MainThread]: 
+Your new dbt project "sample_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+06:15:45.316956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f1b3af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f1b3ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feb9f1b3d00>]}
