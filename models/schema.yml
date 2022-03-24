@@ -13,3 +13,9 @@ sources:
       - name: city
       - name: country
       - name: store
+      - name: film
+      - name: film_actor
+      - name: actor
+      - name: language
+      - name: country
+      - name: customer
