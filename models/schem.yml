@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: movie_rentals
+    schema: public
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+    loader: stitch
+    tables:
+      - name: film
+      - name: film_actor
+      - name: actor
