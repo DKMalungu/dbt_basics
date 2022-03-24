@@ -1,2 +1,2 @@
 SELECT country_id, country, last_update
-	FROM public.country;
+	FROM {{source('movie_rentals', 'country')}}

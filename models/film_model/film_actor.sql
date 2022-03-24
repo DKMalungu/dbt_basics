@@ -1,3 +1,8 @@
+{{
+    config(
+        sort="title"
+    )
+}}
 with film_actor as (select *
 from {{ref('all_film_actor')}}
 inner join {{ref('all_films')}}

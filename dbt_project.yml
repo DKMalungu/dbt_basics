@@ -37,3 +37,6 @@ models:
     +schema: public
     example:
       materialized: view
+    film_model:
+      +schema: film
+      +materialized: table
