@@ -40,3 +40,6 @@ models:
     film_model:
       +schema: film
       +materialized: table
+    general_models:
+      schema: general
+      materialized: table
