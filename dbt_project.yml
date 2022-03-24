@@ -43,3 +43,6 @@ models:
     general_models:
       schema: general
       materialized: table
+    cilent_models:
+      schema: general
+      materialized: table
