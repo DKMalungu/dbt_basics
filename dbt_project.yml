@@ -40,9 +40,16 @@ models:
     film_model:
       +schema: film
       +materialized: table
+      database: dvd_models
     general_models:
       schema: general
       materialized: table
+      database: dvd_models
     cilent_models:
       schema: general
       materialized: table
+      database: dvd_models
+    staff_models:
+      schema: staff
+      materialized: table
+      database: dvd_models
